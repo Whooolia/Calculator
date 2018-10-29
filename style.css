@@ -1,6 +1,6 @@
 #calc{
     margin: 50px auto;
-    width: 390px;
+    width: 370px;
     height : 470px;
     background: lightcoral;
     border-radius: 15px;
@@ -22,6 +22,10 @@
     outline : none;
 }
 
+span {
+    padding: 10px 7px;
+}
+
 .secondRow{
     margin-top: 10px;
 }
@@ -31,7 +35,7 @@
     border: 1px solid black;
     border-radius: 50px;
     text-align: center;
-    padding: 10px 20px;
+    padding: 8px 18px;
     margin: 12px;
     display: inline;
     position: relative;
@@ -41,7 +45,7 @@
 }
 
 #display{
-    width: 260px;
+    width: 250px;
     height: 55px;
     background: lightgoldenrodyellow;
     margin-left : 100px;
@@ -49,7 +53,10 @@
     position: absolute;
     border-radius: 15px;
     text-align: right;
-    font-size: 25px;
+    font-size: 30px;
     border: none;
     outline : none;
+    padding-top : 3px;
+    padding-right : 5px;
+    box-sizing: border-box;
 }
